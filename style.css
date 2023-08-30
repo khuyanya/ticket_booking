@@ -6,12 +6,14 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    background-color: beige;
 }
 
 .container {
     max-width: 1320px;
     margin: 0 auto;
     padding: 0 15px;
+
 }
 
 .section-header {
@@ -78,4 +80,27 @@ p {
     background: #FFFDFD;
     margin-left: 20px;
     margin-bottom: 190px;
+}
+
+.search-buttons {
+    display: flex;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    width: 120px;
+    padding: 0;
+    margin-left: 10px;
+    border-radius: 4px 4px 0px 0px;
+    height: 50px;
+    background-color: white;
+}
+
+.active {
+    background-color: #FFC814;
+}
+
+.search img {
+    padding: 0 10px 0 10px;
 }
