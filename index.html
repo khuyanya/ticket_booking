@@ -46,24 +46,56 @@
     <main>
         <div class="container">
             <div class="search-section">
-                <div class="search-buttons">
-                    <button class="search active">
-                        <img src="img/hotel.svg" alt="hotel">
-                        <span>Hotel</span>
-                    </button>
-                    <button class="search">
-                        <img src="img/Flight 1ico.svg" alt="hotel">
-                        <span>Flight</span>
-                    </button>
-                    <button class="search">
-                        <img src="img/car.svg" alt="hotel">
-                        <span>Car</span>
-                    </button>
-                    <button class="search">
-                        <img src="img/Ship .svg" alt="hotel">
-                        <span>Ship</span>
-                    </button>
-                </div>
+                <form action="search">
+                    <div class="search-buttons">
+
+                        <button class="search active">
+                            <img src="img/hotel.svg" alt="hotel">
+                            <span>Hotel</span>
+                        </button>
+                        <button class="search">
+                            <img src="img/Flight 1ico.svg" alt="hotel">
+                            <span>Flight</span>
+                        </button>
+                        <button class="search">
+                            <img src="img/car.svg" alt="hotel">
+                            <span>Car</span>
+                        </button>
+                        <button class="search">
+                            <img src="img/Ship .svg" alt="hotel">
+                            <span>Ship</span>
+                        </button>
+                    </div>
+                    <div class="trip-data">
+                        <div class="input-field">
+                            <label for="destination">Your Destination</label>
+                            <input type="text" name="destination" placeholder="Thailand">
+                        </div>
+
+                        <div class="input-field">
+                            <label for="Check-In">Check In</label>
+                            <input type="date" name="Check-In" value="2022-01-26">
+                        </div>
+
+                        <div class="input-field">
+                            <label for="Check-Out">Check Out</label>
+                            <input type="date" name="Check-Out" value="2022-01-30">
+                        </div>
+
+                        <div class="input-field">
+                            <label for="Child">Child</label>
+                            <input type="number" name="Child" placeholder="2">
+                        </div>
+
+                        <div class="input-field">
+                            <label for="Adult">Adult</label>
+                            <input type="number" name="Adult" placeholder="3">
+                        </div>
+
+                        <button>Book Now</button>
+
+                    </div>
+                </form>
 
             </div>
         </div>
