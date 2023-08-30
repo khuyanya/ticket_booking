@@ -18,6 +18,7 @@ body {
     background-image: url("img/BGBG_Banner.svg");
     width: 100%;
     height: 100%;
+    background-size: cover;
 }
 
 .logo {
@@ -48,7 +49,33 @@ button {
     font-weight: 600;
     font-size: 16px;
     background-color: #FFC814;
-    padding: 16px 45px;
     border-radius: 4px;
     border: none;
+    width: 160px;
+    height: 60px;
+}
+
+.description {
+    max-width: 565px;
+}
+
+h1 {
+    font-size: 64px;
+    color: white;
+    font-weight: 700;
+    line-height: 76px;
+    margin: 0 0 40px 0;
+}
+
+p {
+    color: white;
+    line-height: 30px;
+    margin-bottom: 55px;
+}
+
+.secondary {
+    color: #181818;
+    background: #FFFDFD;
+    margin-left: 20px;
+    margin-bottom: 190px;
 }
