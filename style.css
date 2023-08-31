@@ -6,11 +6,10 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    background-color: beige;
 }
 
 .container {
-    max-width: 1320px;
+    max-width: 1350px;
     margin: 0 auto;
     padding: 0 15px;
 
@@ -59,6 +58,7 @@ button {
 
 .description {
     max-width: 565px;
+    padding-bottom: 85px;
 }
 
 h1 {
@@ -79,7 +79,6 @@ p {
     color: #181818;
     background: #FFFDFD;
     margin-left: 20px;
-    margin-bottom: 305px;
 }
 
 .search-buttons {
@@ -110,7 +109,7 @@ p {
     background-color: white;
     display: flex;
     justify-content: space-between;
-    max-width: 1328px;
+    /* max-width: 1328px; */
     padding: 40px 30px;
     align-items: flex-end;
     box-shadow: 0px 6px 24px 0px #E4E2EE;
@@ -144,12 +143,21 @@ input {
     margin-left: -20px;
 }
 
-/* form {
-    position: relative;
-    top: 50%;
-} */
-
 .search-section {
     position: relative;
-    top: -125px;
+    top: 105px;
+}
+
+.about-us {
+    position: relative;
+}
+
+.about-us span {
+    color: rgba(244, 246, 250, 0.80);
+    font-size: 430px;
+    font-weight: 600;
+    position: absolute;
+    top: -90px;
+    right: -10px;
+    z-index: -1;
 }
