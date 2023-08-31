@@ -148,16 +148,38 @@ input {
     top: 105px;
 }
 
-.about-us {
+#about-us {
     position: relative;
 }
 
-.about-us span {
+#about-us span {
     color: rgba(244, 246, 250, 0.80);
     font-size: 430px;
     font-weight: 600;
     position: absolute;
-    top: -90px;
+    top: -300px;
     right: -10px;
     z-index: -1;
+}
+
+.about-us {
+    margin-top: 210px;
+}
+
+.photos img {
+    border-radius: 14px;
+    box-shadow: 0px 6px 24px 0px #E4E2EE;
+}
+
+.travel {
+    width: 412.776px;
+    height: 558.542px;
+}
+
+.travel-woman {
+    width: 265px;
+    height: 300px;
+    position: relative;
+    right: 103px;
+    top: 55px;
 }
